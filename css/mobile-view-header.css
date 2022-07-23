@@ -58,7 +58,7 @@
 
     .mobile-menu {
         margin-top: -999px;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         background-color: #fcfcfc;
