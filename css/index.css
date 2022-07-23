@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&family=Mingzat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Mingzat;
+    font-weight: 600;
+    color: #394867;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 80px;
+}
+
+.nav-logo span {
+    font-weight: 700;
+    font-size: 3vmin;
+    font-family: Lemonada;
+    padding: 0px 10px;
+}
+
+.nav-logo span::after {
+    content: 'Healthy';
+    color: #ff0063;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    padding: 0px 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #394867;
+}
+
+.nav-links a:hover {
+    color: #ff0063;
+    transition-duration: 0.2s;
+}
+
+.active {
+    border-bottom: 2px solid #ff0063;
+}
+
+.nav-menuIcon, .mobile-menu, .nav-closeIcon{
+    position: absolute;
+    top: -9999em;
+    right: -9999em;
+}
+
+.hidden {
+    display: none;
+}
