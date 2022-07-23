@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: 100%;
+    }
+
+    .home-section {
+        height: 80vh;
+        justify-content: center;
+        margin-top: -10%;
+    }
+
+    .text-intro {
+        width: 85%;
+        padding: 5% 0px;
+    }
+
+    .text-intro h1 {
+        font-size: 20px;
+    }
+
+    .text-intro p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    body {
+        background-size: 80%;
+    }
+
+    .home-section {
+        height: 80vh;
+        justify-content: center;
+        margin-top: -10%;
+    }
+
+    .text-intro {
+        width: 85%;
+        padding: 5% 0px;
+    }
+}

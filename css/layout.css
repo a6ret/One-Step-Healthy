@@ -6,9 +6,14 @@
 }
 
 body {
+    min-height: 100vh;
     font-family: Mingzat;
     font-weight: 600;
     color: #394867;
+    background-image: url('/assets/fat-women.jpg');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: bottom;
 }
 
 .container {
@@ -68,7 +73,9 @@ nav {
     border-bottom: 2px solid #ff0063;
 }
 
-.nav-menuIcon, .mobile-menu, .nav-closeIcon{
+.nav-menuIcon,
+.mobile-menu,
+.nav-closeIcon {
     position: absolute;
     top: -9999em;
     right: -9999em;
