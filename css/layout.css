@@ -94,3 +94,7 @@ nav {
 .hidden {
     display: none;
 }
+
+.nav-logo-mobile {
+    display: none;
+}

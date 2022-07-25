@@ -56,7 +56,7 @@
 
     .nav-logo span {
         padding: 10px 0px;
-        font-size: 18px;
+        font-size: 4vmin;
     }
 
     .mobile-menu {
@@ -81,5 +81,39 @@
 
     .nav-closeIcon:hover {
         cursor: pointer;
+    }
+
+    .nav-logo-mobile {
+        display: flex;
+        align-items: center;
+        padding: 2% 5%;
+        font-weight: 700;
+    }
+
+    .nav-logo-mobile a {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo-mobile img {
+        width: 60px;
+    }
+
+    .nav-logo-mobile span {
+        font-size: 3vmin;
+        font-family: Lemonada;
+        padding: 0px 10px;
+    }
+
+    .nav-logo-mobile span::after {
+        content: 'Healthy';
+        color: #ff0063;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        background-color: #ffff;
+        width: 100%;
     }
 }

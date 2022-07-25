@@ -1,11 +1,15 @@
 @media only screen and (max-width: 768px) {
+    section {
+        margin-top: 28%;
+    }
+
     .profile-area {
         flex-direction: column;
         text-align: center;
     }
 
     .profile-area img {
-        width: 50%;
+        width: 60%;
     }
 
     .socmed-area {
