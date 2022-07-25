@@ -1,3 +1,10 @@
+body {
+    background-image: url('fat-women.jpg');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: bottom;
+}
+
 .home-section {
     display: flex;
     flex-direction: column;
@@ -8,11 +15,11 @@
 
 .text-intro {
     width: 70%;
-    padding: 2% 0px;
+    padding: 1% 0px;
 }
 
 .text-intro h1 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 4vmin;
     color: #ff0063;
 }
@@ -20,6 +27,10 @@
 .text-intro p {
     font-weight: 500;
     color: rgb(31, 31, 31);
+}
+
+.btn-intro {
+    padding: 1% 0px;
 }
 
 .btn-intro button {

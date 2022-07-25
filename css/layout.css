@@ -10,10 +10,6 @@ body {
     font-family: Mingzat;
     font-weight: 600;
     color: #394867;
-    background-image: url('fat-women.jpg');
-    background-repeat: no-repeat;
-    background-size: 55%;
-    background-position: bottom;
 }
 
 .container {
@@ -25,7 +21,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1% 0px;
+    padding: 2% 0px;
 }
 
 .nav-logo {
@@ -35,7 +31,7 @@ nav {
 }
 
 .logo {
-    width: 80px;
+    width: 70px;
 }
 
 .nav-logo span {
@@ -75,6 +71,7 @@ nav {
 .nav-links .contact:hover {
     color: #fefefe;
     background-color: #ed0d63;
+    transition-duration: 0.2s;
 }
 
 .nav-links a:hover {

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+    .profile-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-area img {
+        width: 50%;
+    }
+
+    .socmed-area {
+        margin: 5% 0px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .body {
+        flex-direction: column;
+    }
+
+    .body article {
+        margin-bottom: 5%;
+    }
+
+    .body img {
+        margin: 0px auto;
+    }
+}

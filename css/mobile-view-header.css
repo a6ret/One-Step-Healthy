@@ -71,4 +71,12 @@
     .menu-slide {
         margin-top: 0px;
     }
+
+    .nav-menuIcon:hover {
+        cursor: pointer;
+    }
+
+    .nav-closeIcon:hover {
+        cursor: pointer;
+    }
 }
