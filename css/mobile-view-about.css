@@ -1,6 +1,7 @@
 @media only screen and (max-width: 768px) {
     section {
         margin-top: 28%;
+        height: 100vh;
     }
 
     .profile-area {

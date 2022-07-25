@@ -3,12 +3,6 @@
         background-size: 100%;
     }
 
-    .home-section {
-        height: 80vh;
-        justify-content: center;
-        margin-top: -10%;
-    }
-
     .text-intro {
         width: 85%;
         padding: 5% 0px;
@@ -31,7 +25,6 @@
     .home-section {
         height: 80vh;
         justify-content: center;
-        margin-top: -10%;
     }
 
     .text-intro {
