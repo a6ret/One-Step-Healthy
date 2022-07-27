@@ -18,5 +18,5 @@ menuIcon.addEventListener('click', toggleHide);
 closeIcon.addEventListener('click', toggleHide);
 
 const redirect = () => {
-    window.location.href = 'food.html';
+    location.href = 'food.html';
 };
