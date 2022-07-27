@@ -7,7 +7,7 @@ const url = 'https://62e00b6b98dd9c9df60ca2ca.mockapi.io/api/v1/foods_data';
 //fetch data from api
 const getData = async (url) => {
     const fetchData = await fetch(url);
-    console.log(fetchData);
+
     if (!fetchData.ok) {
         const html = `<h1 class='error'>Data generated failed..
                         <br />
