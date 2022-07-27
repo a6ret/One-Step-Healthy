@@ -12,7 +12,11 @@ const toggleHide = () => {
     mobileMenu.classList.toggle('menu-slide');
     navLogo.classList.toggle('menu-slide');
     navLink.classList.toggle('menu-slide');
-}
+};
 
 menuIcon.addEventListener('click', toggleHide);
 closeIcon.addEventListener('click', toggleHide);
+
+const redirect = () => {
+    window.location.href = 'food.html';
+};
