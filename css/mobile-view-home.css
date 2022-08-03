@@ -1,6 +1,7 @@
 @media only screen and (max-width: 768px) {
     body {
         background-size: 100%;
+        background-position: center 60vh;
     }
 
     .text-intro {
