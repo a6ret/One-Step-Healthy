@@ -33,9 +33,4 @@
     .body img {
         margin: 0px auto;
     }
-
-    footer {
-        position: absolute;
-        bottom: -50vh;
-    }
 }
